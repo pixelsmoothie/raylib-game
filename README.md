@@ -1,14 +1,14 @@
 # 🏓 Ping Pong Game (Local Multiplayer)
 
 A simple 2D **local multiplayer Ping Pong game** written in **C**.  
-Play head-to-head on the same keyboard — no extra installation needed.  
+No installation or additional libraries needed — just run the executable!  
 
 ---
 
 ## 🎮 Features
-- Local 2-player gameplay  
+- Local 2-player gameplay on the same keyboard  
 - Smooth ball physics and paddle collisions  
-- Lightweight and self-contained executable  
+- Lightweight and self-contained  
 
 ---
 
@@ -27,10 +27,16 @@ Play head-to-head on the same keyboard — no extra installation needed.
 
 ---
 
-## ⚙️ Build & Run
-If you want to compile from source (requires Raylib installed):
+## ▶️ Play
+Simply download the executable from the Releases section (if uploaded) or run the one included in this repository.  
 
-### Linux / macOS
-```bash
-gcc main.c -o pingpong -lraylib -lm -ldl -lpthread -lGL -lrt -lX11
-./pingpong
+---
+
+## 📸 Screenshot
+<img width="1271" height="737" alt="image" src="https://github.com/user-attachments/assets/5e4c399e-170f-489e-af1b-42bdfd823303" />
+
+
+---
+
+## 📜 License
+MIT License — feel free to fork, modify, or redistribute.
